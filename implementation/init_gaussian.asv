@@ -1,0 +1,14 @@
+function [outputArg1,outputArg2] = init_gaussian()
+% construct the label function- correlation output, 2D gaussian function,
+% with a peak located upon the target
+
+output_sigma = sqrt(prod(floor(base_target_sz/featureRatio))) * output_sigma_factor;
+rg           = circshift(-floor((use_sz(1)-1)/2):ceil((use_sz(1)-1)/2), [0 -floor((use_sz(1)-1)/2)]);
+cg           = circshift(-floor((use_sz(2)-1)/2):ceil((use_sz(2)-1)/2), [0 -floor((use_sz(2)-1)/2)]);
+[rs, cs]     = ndgrid(rg,cg);
+y            = exp(-0.5 * (((rs.^2 + cs.^2) / output_sigma^2)));
+yf           = fft2(y); %   FFT of y.
+
+
+end
+
