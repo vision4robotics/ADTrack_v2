@@ -1,4 +1,4 @@
-function results = run_ADTrackplus(seq)
+function results = run_ADTrack_v2(seq)
 
 %  Initialize path
 addpath('feature/');
