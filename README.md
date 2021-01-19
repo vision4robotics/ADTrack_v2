@@ -13,7 +13,7 @@ Email: 1854152@tongji.edu.cn
 
 Changhong Fu
 
-Email: [changhong.fu@tongji.edu.cn](mailto:changhong.fu@tongji.edu.cn)
+Email: [changhongfu@tongji.edu.cn](mailto:changhongfu@tongji.edu.cn)
 
 # Demonstration running instructions
 
