@@ -19,6 +19,20 @@ Email: [changhongfu@tongji.edu.cn](mailto:changhongfu@tongji.edu.cn)
 
 This code is compatible with UAV123@10fps, DTB70 and UAVDark135 benchmark. Therefore, if you want to run it in benchmark, just put ADTrack_v2 folder in trackers, and config sequences and trackers according to instructions from aforementioned benchmarks. 
 
+If you want to use our experimental results, UAVDark135 benchmark or related content, please cite our paper using the format as follows:
+
+@article{Li2021All,
+
+author = {Bowen Li and Changhong Fu and Fangqiang Ding and Junjie Ye and Fuling Lin},
+
+title = {All-Day Object Tracking for Unmanned Aerial Vehicle},
+
+year = {2021},
+
+journal = {arXiv:2101.08446}
+
+}
+
 # Results on UAV datasets
 
 ### UAV123@10fps
