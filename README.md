@@ -59,7 +59,7 @@ journal = {arXiv:2101.08446}
 
 Here exhibits some representative scenes from UAVDark135:
 
-![](\results_OPE\UAVDark135.png)
+![](results_OPE/UAVDark135.png)
 
 The benchmark is available at:
 
